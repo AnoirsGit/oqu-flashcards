@@ -15,6 +15,7 @@
 		"prepare": "husky install"
 	},
 	"devDependencies": {
+		"@iconify/svelte": "^3.0.1",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^1.0.0",
 		"@sveltejs/kit": "^1.0.0",
@@ -42,5 +43,12 @@
 			"git add"
 		]
 	},
-	"type": "module"
+	"type": "module",
+	"types": "dist/modules/index.d.ts",
+	"dependencies": {
+		"date-picker-svelte": "^2.2.5",
+		"dayjs": "^1.11.7",
+		"svelte-multiselect": "^8.2.4",
+		"svelte-portal": "^2.2.0"
+	}
 }

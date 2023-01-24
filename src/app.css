@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.flex-centred {
+  @apply flex justify-center items-center;
+}
+
+.primary-btn {
+  @apply px-6 py-2 rounded-lg bg-main-blue-500 text-white border border-transparent text-center;
+  @apply hover:bg-white hover:text-white hover:border hover:border-main-blue-500 hover:text-main-blue-500;
+}
+
+.auth-input {
+  @apply  mb-4 flex flex-col text-lg;
+}
+
+.auth-input input {
+  @apply px-4 py-2 bg-main-blue-200 rounded-lg text-main-blue-600;
+}
+
+.auth-input input::placeholder {
+  @apply text-main-blue-400;
+}
+
+.default-input{
+  @apply px-4 py-2 bg-main-blue-200 rounded-lg text-main-blue-600; 
+}
+
+.default-input::placeholder {
+  @apply text-main-blue-400;
+}
