@@ -21,12 +21,12 @@
     {
       name: 'Журнал',
       icon: 'material-symbols:note-alt-outline-rounded',
-      link: '#'
+      link: '/journal'
     },
     {
-      name: 'Аналитика',
-      icon: 'ri:pie-chart-line',
-      link: '#'
+      name: 'Профиль',
+      icon: 'mdi:user',
+      link: '/profile'
     }
   ];
 </script>
